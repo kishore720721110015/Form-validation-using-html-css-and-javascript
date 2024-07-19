@@ -1,0 +1,48 @@
+/* .square{
+    height: 500px;
+    width: 500px;
+    background-color:rgb(9, 249, 249);
+    margin: 50px auto;
+} */
+body{
+    background-color: rgb(179, 117, 179);
+}
+.forms{
+    max-width: 500px;
+	margin: 40px auto;
+	padding: 20px;
+}
+form {
+	display: flex;
+    flex-direction: column;
+    background-color:rgb(247, 195, 241);
+    padding: 30px;
+    padding-left: 70px;
+    border-radius: 7px;
+}
+form h2{
+    text-align: center;
+    padding-right: 40px;
+}
+label {
+	margin-bottom: 7px;
+}
+#add{
+    height: 100px;
+}
+input[type="submit"] {
+	background-color: #478CCF;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	width: 30%;
+    margin-left: 110px;
+}
+input[type="text"] ,input[type="password"]{
+	width: 80%;
+	padding: 10px;
+	margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+}
