@@ -28,7 +28,7 @@ label {
 	margin-bottom: 7px;
 }
 #add{
-    height: 100px;
+    padding-bottom: 100px;
 }
 input[type="submit"] {
 	background-color: #478CCF;
